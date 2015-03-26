@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="#B2FFFFFF">
+
+    <TextView
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="00000"
+        android:textSize="12pt"
+        android:visibility="gone"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#FF000000"
+        android:textAlignment="center"
+        android:id="@+id/time" />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="10 hours of recording left"
+        android:layout_marginRight="50dp"
+        android:visibility="visible"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FF000000"
+        android:textAlignment="center"
+        android:id="@+id/msg" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/ic_action_pause"
+        android:id="@+id/pause" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_stop"
+        android:visibility="gone"
+        android:id="@+id/stop" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_stop"
+        android:visibility="gone"
+        android:id="@+id/camera" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_mic"
+        android:layout_marginRight="20dp"
+        android:visibility="visible"
+        android:id="@+id/start" />
+</LinearLayout>
